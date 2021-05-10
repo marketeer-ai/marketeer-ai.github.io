@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Marketeer.ai | Automated digital marketing for online shops.</title>
+    <link rel="stylesheet" href="https://use.typekit.net/uut6fwq.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-622572347"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-622572347');
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <span class="logo">Marketeer.AI</span>
+        <span class="separator"></span>
+        <span class="button dropdown">
+          Products
+          <ul>
+            <li><a class="button" href="secret-shopper.html">Secret Shopper</a></li>
+            <li><a class="button" href="connect.html">Connect</a></li>
+            <li><a class="button" href="acquire.html">Acquire</a></li>
+          </ul>
+        </span>
+        <a class="button" href="">Login</a>
+        <a class="button primary" href="#pricing">Sign Up</a>
+      </div>
+    </header>
+    <section id="product-name">
+      <span>Acquire</span>
+    </section>
+    <section id="hero">
+      <div class="content first">
+        <h1>Risk-free customer acquisition for online shops.</h1>
+        <p>Buying ads feels backwards to us. There's a disconnect between tweaking your cost-per-click bids and generating sales that still leaves you with a healthy profit.</p>
+        <p>Instead, wouldn't it be better to just pay for each sale we generate for you?</p>
+      </div>
+      <div class="screenshot">
+        <img src="assets/imgs/dashboard-screenshot.png" alt="Product screenshot, showing the dashboard." />
+      </div>
+    </section>
+    <section id="cost-of-sale-explainer">
+      <div class="screenshot first">
+        <img src="assets/imgs/commission-screenshot.svg" alt="Product screenshot, showing the flexible maximum cost of sale variable." />
+      </div>
+      <div class="content">
+        <h2>The (not so) secret ingredient.</h2>
+        <p>Take advantage of our ultimate flexibility by telling us exactly how much commission you want to pay for a sale of each product. We’ll give you an instant indication of how many we think we’ll send your way. This guarantees that each and every new customer is profitable.</p>
+      </div>
+    </section>
+    <section id="pricing">
+      <div class="cards">
+        <div class="card solo">
+          <h3>Pay What You Want</h3>
+          <p class="pricing">
+            <span id="variable_price">1%</span><span class="secondary"> or more</span>
+          </p>
+          <ul class="product-features">
+            <li class="people">Unlimited team members</li>
+            <li>Ad accounts created and managed for you</li>
+            <li>Run ads on Google, Facebook, Instagram, Pinterest, Microsoft and more</li>
+            <li>No upfront costs or contracts</li>
+            <li>Only pay commission on sales we generate</li>
+            <li>Set commission rates from the store level all the way to individual SKU</li>
+            <li>Realtime feedback on expected performance</li>
+            <li>Transparent reporting</li>
+            <li>Get feedback from experts on how to optimise your store</li>
+            <li>Commission refunded if order gets cancelled/returned</li>
+          </ul>
+          <a id="specialist" href="#kol-popup-304389" class="button primary alt getStarted">
+            Get Started
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="works-with">
+      <div class="content">
+        <h2>Integrates directly with...</h2>
+        <div class="logos">
+          <img src="assets/imgs/partner_logo_shopify.svg" alt="Shopify logo" />
+          <img src="assets/imgs/partner_logo_squarespace.svg" alt="Squarespace logo" />
+          <img src="assets/imgs/partner_logo_ecwid.svg" alt="Ecwid logo" />
+          <img src="assets/imgs/partner_logo_bigcommerce.svg" alt="BigCommerce logo" />
+          <img src="assets/imgs/partner_logo_magento.svg" alt="Magento logo" />
+          <img src="assets/imgs/partner_logo_woocommerce.svg" alt="WooCommerce logo" />
+          <img src="assets/imgs/partner_logo_drupal.svg" alt="Drupal logo" />
+        </div>
+      </div>
+    </section>
+    <section id="why-we-exist">
+      <div class="screenshot first">
+      </div>
+      <div class="content">
+        <h2>Let's <span>shake</span> things up.</h2>
+        <p>Traditional marketing tools charge you a percentage of your ad spend. We believe you should just pay for the value delivered. That’s why we have straight forward pricing.</p>
+       <!-- on our incremental sales program, you just pay for each sale we send your way -->
+        <p> Simple, right? 🤷</p>
+      </div>
+    </section>
+    <section id="footer">
+      <p>&copy; Copyright 2020 Marketeer.ai.</p>
+      <div class="links">
+        <a href="privacy.html" class="button secondary">Privacy Policy</a>
+        <a href="terms.html" class="button secondary">Terms and Conditions</a>
+      </div>
+    </section>
+    <script type="text/javascript">
+    var buttons = document.getElementsByClassName("getStarted");
+    for (var i=0; i<buttons.length; i++) {
+      var button = buttons[i];
+      button.onclick = function (e) {
+        e.preventDefault();
+        gtag_report_conversion();
+      };
+    }
+
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-622572347/aAFeCJ2RqdYBELvm7qgC',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+    <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+    <script>window.$kol_jquery = window.jQuery</script>
+    <script src="https://cdn.kickoffpages.com/widgets/1.9.9/kol_bounce.js"></script>
+    <script src='https://cdn.kickoffpages.com/w/147708/304389.js'></script>
+  </body>
+</html>
